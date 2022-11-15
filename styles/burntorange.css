@@ -1,0 +1,60 @@
+/* 
+Burnt Orange Color scheme 
+/* 
+/* Orange */
+  .dropdown-item.active, .dropdown-item:active,.progress-bar,.alert-primary,.feature,.revealedBox > span,.nav-tabs .nav-link.active,.nav-tabs .nav-link:hover,.nav-tabs .nav-link:focus,.nav-tabs .nav-link.active:hover ,.navbar-default .navbar-toggler:hover,.back-to-top:hover,.badges-hover a:hover .badge,.blog-tags a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a.active,.form-check-input:checked,.bg-primary, .blob-text,.blob-text2,.btn-primary:active,.btn-primary:not(:disabled):not(.disabled):active,.btn-primary.focus, .btn-primary:focus,.btn-default.focus, .btn-default:focus,.btn-primary,.btn-default, a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover, .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover, .pagination>li>a:hover,.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover,.date-category, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .spinner > div,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .bg-color1,.btn:before,.contact-icon .top-icon,.nav-pills>li>a:focus, .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover, .nav-pills>li>a:hover{
+     background-color:#d56747!important;
+}
+ span.sub-header,.nav-link,.btn-info:hover,.btn-info:focus,.text-info,.slick-dots li button:before,.post-info-single i,.testimonial .content:before,a,.menu-item-price p,.accordion-button:not(.collapsed), .accordion-button:hover,.sub-header,.breadcrumb-item a,.btn-outline-secondary:active,.btn-outline-secondary:focus,.btn-outline-secondary:hover,.btn-outline-primary,.slick-prev:before, .slick-next:before,blockquote:before,.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>li>a:focus,ul.custom li:before,.margin-icon,.text-secondary,.social-media i,.brand,.brand i{
+     color:#d56747!important;
+}
+ .bg-info,.badge.bg-secondary,.alert-info,.dropdown-menu ,.slick-dots li button,.pagination>li>a, .pagination>li>span,.pagination>li>a:focus,.team-style1,.border-start,.border-end,.border-bottom,.border-top,.accordion-button,.border,.img-border,.boxbg1,.boxbg2,.boxbg3,#sidebar,.number,.lightbox img:hover,.btn-outline-secondary:active,.btn-outline-secondary:focus,.btn-outline-secondary:hover,.btn-outline-primary,.form-select,.form-select:focus,.form-check-input, .form-check-input:checked,.price-table:hover .price-wrap,.underline-effect,.content-box.home, .form-control,.service-icon img,.contact-icon,.btn-default:hover{
+     border-color:#d56747!important;
+}
+ .btn,.color-outline,.feature:hover{
+     outline:1px solid #d56747;
+}
+/* light orange */
+.card.bg-light,#blog-sidebar .card-header,#elements h3.subheader,.table-striped>tbody>tr:nth-of-type(odd),.list-group-item,.bg-light{
+     background-color:rgb(213 103 71 / 27%)!important;
+}
+
+/* Black */
+  .dropdown-item.active, .dropdown-item:active,.badge-primary,span.badge-primary,.btn-info:hover,.btn-secondary:hover,.btn-secondary:active,.btn-secondary:focus,.text-dark,.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,.badge.bg-primary:hover,.contact-icon .top-icon,button.btn-primary,a.btn-primary,.number,.navbar-default .navbar-nav>li>a.active,.navbar-default .navbar-nav>li>a:hover,.btn-outline-primary:active,.btn-outline-primary:focus,.btn-outline-primary:hover, .alert-secondary:before,.alert-primary,.price-plan,.price-plan-month,.text-primary,.table>thead>tr>th,.service-icon i {
+     color:#000000!important;
+}
+ .blog-card .post-info,.bg-info,.alert-info,.dropdown-menu,.pagination>li>a, .pagination>li>span,.pagination>li>a:focus,.card,.testimonial .content,#preloader,.nav-tabs .nav-link,section,body,.back-to-top,.btn-info,.bg-secondary,.nav-pills .nav-link.active, .nav-pills .show>.nav-link,.nav-link.active:hover,.btn-secondary,.btn-default:hover, #sidebar,.btn-primary:hover{
+     background-color:#000000!important;
+}
+ .btn-outline-secondary,.btn-outline-primary:active,.btn-outline-primary:focus,.btn-outline-primary:hover, .btn-primary.focus, .btn-primary:focus{
+     border-color:#000000!important;
+}
+ .btn-secondary {
+    outline:1px solid #000000;
+}
+/* white */
+.blog-card .post-info,.accordion-button.collapsed, .accordion-button:not(.collapsed),.pagination>li>a, .pagination>li>span,.pagination>li>a:focus,.table,.table:hover,.table-striped>tbody>tr:nth-of-type(odd),.table-striped>tbody>tr:nth-of-type(odd):hover,.table-hover>tbody>tr:hover,button.btn-primary:hover, .nav-link:focus,a.btn-secondary .btn-primary:hover, .btn-primary:focus, .btn-secondary:focus,.alert-info,.list-group-item,.dropdown-menu>li>a ,.slick-dots li.slick-active button:before,.form-control,.form-control:focus,body,p,span,h1,h2,h3,h4,h5,h6,ul,li,.social-media i:hover, a:hover, a:focus {
+    color:#ffffff;
+}
+ul.custom li,body,p,span,i:hover, a:hover, a:focus {
+    color:rgb(255 255 255 / 71%)!important;
+}
+ .form-control:focus{
+    border-color:#ffffff!important;
+}
+ .btn.btn-info:hover,.bg-white,.btn-secondary:hover{
+    background-color:#ffffff!important;
+}
+ .btn-primary:hover,.btn-secondary:hover {
+    outline:1px solid #ffffff;
+}
+/* Transparency */
+ .bg-overlay1, .card-service {
+     box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 75%);
+}
+ .card-service:hover {
+     box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 38%);
+}
+ .bg-overlay2 {
+     box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 85%);
+}
