@@ -20,7 +20,6 @@ if($_POST)
 	$subject		= filter_var($_POST["subject"], FILTER_SANITIZE_STRING);
 	$message		= filter_var($_POST["msg"], FILTER_SANITIZE_STRING);
 	
-	
 	//email 
 	$message_body = $message."\r\n\r\n-".$user_name."\r\nsubject : ".$subject."\r\nPhone : ".$phone."\r\nEmail : ".$user_email;
 	
@@ -41,5 +40,6 @@ if($_POST)
 		$output = json_encode(array('type'=>'message', 'text' => ''));
 		die($output);
 	}
+	
 }
 ?>
