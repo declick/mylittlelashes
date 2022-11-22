@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-	$to_email   	= "claireminz@gmail.com"; //E-mail du destinataire, Remplacer par son propre e-mail ici
+	$to_email   	= "ml.mylittlelashes@gmail.com"; //E-mail du destinataire, Remplacer par son propre e-mail ici
 	
 	//Vérifier s'il s'agit d'une requête ajax, quittez si ce n'est pas le cas
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
