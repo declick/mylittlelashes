@@ -6,7 +6,9 @@
 #Media Queries 
 
 /*=========================== General and Typography ============================ */
- 
+*{
+ theme_color: "primary-color";
+}
  body {
      font-family: 'Muli',sans-serif;
      overflow-x:hidden;
@@ -80,7 +82,6 @@
      text-transform:uppercase;
      font-weight:700;
      font-size: 15px;
-     opacity:0.6;
      letter-spacing:1.5px;
      margin-bottom: 0.7em;
      line-height: 1.6em;
@@ -452,9 +453,6 @@
 /* Horaire */
 .container_intro{
     display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-top: 50px;   
    }
    @media (max-width: 1199px){
     .container_intro{    
@@ -546,74 +544,74 @@
 
 }
  .boxbg1{
-     background: url("../img/boxbg1.jpg");
+     background: url("../img/boxbg1.WebP");
      background-size: cover;
      background-position: center;
 }
  .boxbg2{
-     background: url("../img/boxbg2.jpg");
+     background: url("../img/boxbg2.WebP");
      background-size: cover;
 }
  .boxbg3{
-     background: url("../img/boxbg3.jpg");
+     background: url("../img/boxbg3.WebP");
      background-size: cover;
      background-position: center;
 }
 .card-service.bg-1 {
      background-size:cover;
-     background-image: url('../img/services/service1.jpg');
+     background-image: url('../img/services/service1.WebP');
 }
  .card-service.bg-2 {
      background-size:cover;
-     background-image: url('../img/services/service2.jpg');
+     background-image: url('../img/services/service2.WebP');
 }
  .card-service.bg-3 {
      background-size:cover;
-     background-image: url('../img/services/service3.jpg');
+     background-image: url('../img/services/service3.WebP');
 }
  .card-service.bg-4 {
      background-size:cover;
-     background-image: url('../img/services/service4.jpg');
+     background-image: url('../img/services/service4.WebP');
 }
  .card-service.bg-5 {
      background-size:cover;
-     background-image: url('../img/services/service5.jpg');
+     background-image: url('../img/services/service5.WebP');
 }
  .card-service.bg-6 {
      background-size:cover;
-     background-image: url('../img/services/service6.jpg');
+     background-image: url('../img/services/service6.WebP');
 }
  #bg-about1 {
      background-size:cover;
      background-position: center;
-     background-image: url('../img/about/about1.jpg');
+     background-image: url('../img/about/about1.WebP');
      min-height: 300px;
 }
  #bg-about2 {
      background-size:cover;
      background-position: center;
-     background-image: url('../img/about/about2.jpg');
+     background-image: url('../img/about/about2.WebP');
 }
  .call-to-action1 {
      background-size:cover;
      background-position: top;
-     background-image: url('../img/calltoaction1.jpg');
+     background-image: url('../img/calltoaction1.WebP');
 }
  #team {
      background-size:cover;
      background-position: top center;
-     background-image: url('../img/team/teambg.jpg');
+     background-image: url('../img/team/teambg.WebP');
 }
  #about-home {
      background-size:cover;
      background-position: top center;
-     background-image: url('../img/about-home.jpg');
+     background-image: url('../img/about-home.WebP');
 }
  .page-header{
-     background: url("../img/pageheader.jpg");
+     background: url("../img/pageheader.WebP");
 }
 .page-header2{
-    background: url("../img/pageheader2.jpg");
+    background: url("../img/pageheader2.WebP");
 }
 
 /* Page header */
@@ -810,6 +808,10 @@
  .navbar-info {
      text-align: center;
      color: #fff;
+}
+/* fa */
+#flag{
+    color:red;
 }
 /* forms */
  .form-control {
@@ -1404,7 +1406,6 @@
     /* navigation */
      .navbar{
          display: block;
-         padding-bottom: 30rem;
     }
      .dropdown-menu {
          margin-top: 30px;

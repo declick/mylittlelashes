@@ -16,7 +16,7 @@
 
 		// icône personnalisée
 		let customIcon = L.icon({
-		iconUrl: 'img/mapmarker.png',
+		iconUrl: 'img/mapmarker.WebP',
 		iconSize:     [64, 64], // taille de l'icone
 		iconAnchor:   [32, 63] // point de l'icône qui correspondra à l'emplacement du marqueur
 		});
