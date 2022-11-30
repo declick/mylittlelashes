@@ -613,6 +613,12 @@
 .page-header2{
     background: url("../img/pageheader2.WebP");
 }
+.page-header3{
+    background: url("../img/pageheader3.WebP");
+}
+.page-header4{
+    background: url("../img/pageheader4.WebP");
+}
 
 /* Page header */
  .page-header{
@@ -627,6 +633,22 @@
 }
 /* Page header2 */
 .page-header2{
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    background-position:center;
+    padding: 5.0em;
+}
+/* Page header3 */
+.page-header3{
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+    background-position:center;
+    padding: 5.0em;
+}
+/* Page header4 */
+.page-header4{
     background-repeat: no-repeat;
     background-size:cover;
     text-align:center;
@@ -1464,6 +1486,12 @@
          padding: 3.0em 0 0em 0;
     }
     .page-header2 {
+        padding: 3.0em 0 0em 0;
+   }
+     .page-header3 {
+        padding: 3.0em 0 0em 0;
+   }
+     .page-header4 {
         padding: 3.0em 0 0em 0;
    }
      .navbar {
